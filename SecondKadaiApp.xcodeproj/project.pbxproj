@@ -12,6 +12,7 @@
 		B028DB2C1DAE8683004E90C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B028DB2A1DAE8683004E90C7 /* Main.storyboard */; };
 		B028DB2E1DAE8683004E90C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B028DB2D1DAE8683004E90C7 /* Assets.xcassets */; };
 		B028DB311DAE8683004E90C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B028DB2F1DAE8683004E90C7 /* LaunchScreen.storyboard */; };
+		B028DB391DAE874E004E90C7 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B028DB381DAE874E004E90C7 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B028DB2D1DAE8683004E90C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B028DB301DAE8683004E90C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B028DB321DAE8683004E90C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B028DB381DAE874E004E90C7 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				B028DB261DAE8683004E90C7 /* AppDelegate.swift */,
 				B028DB281DAE8683004E90C7 /* ViewController.swift */,
 				B028DB2A1DAE8683004E90C7 /* Main.storyboard */,
+				B028DB381DAE874E004E90C7 /* ResultViewController.swift */,
 				B028DB2D1DAE8683004E90C7 /* Assets.xcassets */,
 				B028DB2F1DAE8683004E90C7 /* LaunchScreen.storyboard */,
 				B028DB321DAE8683004E90C7 /* Info.plist */,
@@ -139,6 +142,7 @@
 			files = (
 				B028DB291DAE8683004E90C7 /* ViewController.swift in Sources */,
 				B028DB271DAE8683004E90C7 /* AppDelegate.swift in Sources */,
+				B028DB391DAE874E004E90C7 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +265,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HWY42J8G27;
 				INFOPLIST_FILE = SecondKadaiApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.takanori.kashino.SecondKadaiApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,6 +279,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HWY42J8G27;
 				INFOPLIST_FILE = SecondKadaiApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.takanori.kashino.SecondKadaiApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
